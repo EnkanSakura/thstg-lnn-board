@@ -1,0 +1,51 @@
+/* 表格样式 */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #665e5e;
+    color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+/* 按钮样式 */
+.button-back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-back:hover {
+    background-color: #ddd;
+}
+
+.button-back:active {
+    background-color: #007bff;
+    color: white;
+}
