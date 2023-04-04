@@ -1,0 +1,17 @@
+table: {
+    id: [record]
+}
+
+id: (nick, sign)
+
+record: {
+    game: 作品名,
+    role: 机体名,
+    rep: 有无rep 有且上传则附加rep链接,
+    live: 有无直播或实录,
+    hand: 有无手元,
+    key: 有无按键显示,
+    screen: 有无拍摄屏幕,
+    link: 有无视频 有且上传则附加视频链接,
+    date: 达成时间
+}

@@ -28,7 +28,13 @@ tr:nth-child(even) {
 }
 
 /* 按钮样式 */
-.button-back {
+.btn {
+    width: auto;
+    height: auto;
+    line-height: normal;
+}
+
+.btn-back {
     position: fixed;
     top: 20px;
     left: 20px;
@@ -41,11 +47,17 @@ tr:nth-child(even) {
     cursor: pointer;
 }
 
-.button-back:hover {
+.btn-back:hover {
     background-color: #ddd;
 }
 
-.button-back:active {
+.btn-back:active {
     background-color: #007bff;
     color: white;
+}
+
+.btn-url {
+    background-color: #8d8d8d;
+    color: rgb(245, 252, 153);
+    padding: 5px 10px;
 }

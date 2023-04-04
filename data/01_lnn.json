@@ -1,6 +1,41 @@
-[
-	["昵称", "常用机签", "作品&机体", "REP", "直播", "手元", "按键", "屏摄"],
-	["A", "AA", "红 灵梦A", 1, 1, 1, 1, 1],
-	["B", "BB", "妖 灵梦B", 1, 0, 1, 0, 0],
-	["C", "CC", "永 结界组", 1, 0, 1, 1, 0]
-]
+{
+	"A - AA": [
+		{
+			"game": "红",
+			"role": "灵梦A",
+			"rep": "url",
+			"live": true,
+			"hand": true,
+			"key": true,
+			"screen": true,
+			"link": "url",
+			"date": "1111/11/11"
+		}
+	],
+	"B - BB": [
+		{
+			"game": "妖",
+			"role": "灵梦B",
+			"rep": true,
+			"live": true,
+			"hand": true,
+			"key": false,
+			"screen": false,
+			"link": "url",
+			"date": "1111/11/11"
+		}
+	],
+	"C - CC": [
+		{
+			"game": "永",
+			"role": "结界组",
+			"rep": true,
+			"live": true,
+			"hand": true,
+			"key": true,
+			"screen": false,
+			"link": "url",
+			"date": "1111/11/11"
+		}
+	]
+}

@@ -1,3 +1,7 @@
+const boolKeyList = [
+  'rep', 'live', 'hand', 'key', 'screen', 'link'
+];
+
 // 获取当前页面的 URL
 const url = new URL(window.location.href);
 
@@ -11,40 +15,44 @@ fetch(`data/${tableData}`)
   .then(response => response.json())
   .then(data => {
     // 查找表格元素
-    const table = document.querySelector('table');
-    // 渲染表头
-    const headerRow = document.createElement('tr');
-    data[0].forEach(cellData => {
-      const cell = document.createElement('th');
-      cell.textContent = cellData;
-      headerRow.appendChild(cell);
-    });
-    table.appendChild(headerRow);
+    const table = document.querySelector('tbody');
 
     // 渲染表格数据
-    for (let i = 1; i < data.length; i++) {
-      const rowData = data[i];
-      const row = document.createElement('tr');
-      // rowData.forEach(cellData => {
-      //   const cell = document.createElement('td');
-      //   cell.textContent = cellData;
-      //   row.appendChild(cell);
-      // });
-      for (let j = 0; j < rowData.length; j++) {
-        const cell = document.createElement('td');
-        if (page.startsWith('01_lnn') && j > 2) {
-          cell.textContent = (rowData[j] == 1) ? '√' : '×';
-          row.appendChild(cell);
-        } else {
-          cell.textContent = rowData[j];
+    for (let id in data) {
+      const userData = data[id];
+      userData.forEach(recordData => {
+        console.log(recordData);
+        const row = document.createElement('tr');
+        const idCell = document.createElement('td');
+        idCell.textContent = id;
+        row.appendChild(idCell);
+        for (let key in recordData) {
+          console.log(key, recordData[key]);
+          const cell = document.createElement('td');
+          if (boolKeyList.indexOf(key) !== -1) {
+            if (typeof(recordData[key]) === 'boolean') {
+              cell.textContent = recordData[key] ? '√' : '×';
+            }
+            else {
+              const link = document.createElement('a');
+              link.href = recordData[key];
+              link.textContent = '查看';
+              link.target = '_blank';
+              link.className = 'btn btn-url'
+              cell.appendChild(link);
+            }
+          }
+          else {
+            cell.textContent = recordData[key];
+          }
           row.appendChild(cell);
         }
-      }
-      table.appendChild(row);
+        table.appendChild(row);
+      });
     }
   }
 );
 
 function goBack() {
-  window.history.back();
+  location.assign(location.href.split('/').slice(0, -1).join('/'));
 }
