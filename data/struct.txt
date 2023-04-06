@@ -1,11 +1,13 @@
 table: {
-    id: [record]
+    id: {
+        作品名: [record]
+    }
 }
 
 id: (nick, sign)
 
+// LNN榜
 record: {
-    game: 作品名,
     role: 机体名,
     rep: 有无rep 有且上传则附加rep链接,
     live: 有无直播或实录,
@@ -13,5 +15,11 @@ record: {
     key: 有无按键显示,
     screen: 有无拍摄屏幕,
     link: 有无视频 有且上传则附加视频链接,
-    date: 达成时间
+    date: 达成时间,
+    comment: 备注
+}
+
+// 鸡榜
+record: {   // TODO 表项待补充
+    introduce: 事迹简介
 }

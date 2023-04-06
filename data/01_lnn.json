@@ -1,41 +1,5210 @@
 {
-	"A - AA": [
-		{
-			"game": "红",
-			"role": "灵梦A",
-			"rep": "url",
-			"live": true,
-			"hand": true,
-			"key": true,
-			"screen": true,
-			"link": "url",
-			"date": "1111/11/11"
-		}
-	],
-	"B - BB": [
-		{
-			"game": "妖",
-			"role": "灵梦B",
-			"rep": true,
-			"live": true,
-			"hand": true,
-			"key": false,
-			"screen": false,
-			"link": "url",
-			"date": "1111/11/11"
-		}
-	],
-	"C - CC": [
-		{
-			"game": "永",
-			"role": "结界组",
-			"rep": true,
-			"live": true,
-			"hand": true,
-			"key": true,
-			"screen": false,
-			"link": "url",
-			"date": "1111/11/11"
-		}
-	]
+    "蓬莱の魚の形 - ***YZ***": [
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "苗A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "苗B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "覭千缘 - 0": [
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "紫B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "1 - 1": [
+        {
+            "game": "红",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "红",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "咏B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "红A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "红B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "冥A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "冥A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "紫AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "魔AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "爱B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "咲B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "蕾AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "妖B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "幽AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "13 - 13": [
+        {
+            "game": "永",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "17 - 17": [
+        {
+            "game": "妖",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "魔秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "回忆终归是过去 - 191969": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "411022 - 411022": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "夏",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "916 - 916": [
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "梦冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "鬼",
+            "role": "魔鹰",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "A2 - A2": [
+        {
+            "game": "白",
+            "role": "苗A2",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "百",
+            "role": "机B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "海",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "晶",
+            "role": "魔D",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "幕1",
+            "role": "帕",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "幽谷啊哈 - Aha": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "妖",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "圣德の十七条威光 - Alex": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "满充ミツル - AMZ/mrs": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "冰冻的苹果 - APY": [
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "爱丽丝的上海人偶 - ASH": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "魔",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Astro_Skyline - Astro_Skyline": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "魔",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "ATM - ATM": [
+        {
+            "game": "妖",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "咏AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "红AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "蕾B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "大",
+            "role": "全",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "妖",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "鬼",
+            "role": "妖狼",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "啊呜蛙 - auu": [
+        {
+            "game": "风",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "妖",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "实况主本人 - Benren": [
+        {
+            "game": "天",
+            "role": "梦秋冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "魔秋冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "梦桜夜 - BsHJ": [
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "丶不基 - BUJI": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "模范炸比 - CAL/HXW": [
+        {
+            "game": "风",
+            "role": "梦BC",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "夜桜鎮魂歌 - Cerasis": [
+        {
+            "game": "永",
+            "role": "咏AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦ABC",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "魔AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "大",
+            "role": "A2",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "心天音 - Cero": [
+        {
+            "game": "地",
+            "role": "梦AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "大",
+            "role": "A1",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Chromium - Chromium": [
+        {
+            "game": "地",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "纯梦 - chunm": [
+        {
+            "game": "神",
+            "role": "妖",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "夏",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "COMMON - COMMON": [
+        {
+            "game": "永",
+            "role": "妖A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "CTD02 - CTD02": [
+        {
+            "game": "风",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "STNSY星辰 - CWC": [
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "结界AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "冥AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "紫AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "梦冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "鬼",
+            "role": "魔狼",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "神櫻吹雪 - CYH/RST": [
+        {
+            "game": "幕1",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "幕1",
+            "role": "魔",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "幕1",
+            "role": "帕",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "雾雨威 - CZW": [
+        {
+            "game": "风",
+            "role": "全",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "魔",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "虹",
+            "role": "全",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "DenebW - DenebW": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔AC",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "MCdia - dia": [
+        {
+            "game": "永",
+            "role": "紫A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "DJRock - DJRock": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Maksim71 - Doll": [
+        {
+            "game": "妖",
+            "role": "梦AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "小田原シクラメン - Eek": [
+        {
+            "game": "魔",
+            "role": "苗B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Eirin - Eirin": [
+        {
+            "game": "永",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "暗光风水火土 - EMERIUM": [
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "幽魂Spectre - ERC": [
+        {
+            "game": "永",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "ESC - ESC": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "February-II - FCH": [
+        {
+            "game": "风",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "FF0000 - FF0000": [
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "妖A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Fire丿Rat - FRT": [
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "GZQ - GZQ": [
+        {
+            "game": "风",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "東方紺珠傳 - GZZ": [
+        {
+            "game": "妖",
+            "role": "咲AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "冥A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "梦秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Haki - Haki": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "梦冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "鬼",
+            "role": "梦狼",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "HAN - HAN": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "鬼",
+            "role": "妖狼",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "孤傲不从容的飞 - Hane": [
+        {
+            "game": "大",
+            "role": "A1",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "HUCK - HUCK": [
+        {
+            "game": "永",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "虹",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "潮",
+            "role": "全",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "催",
+            "role": "龙B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "门",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "眠",
+            "role": "全",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "实",
+            "role": "妖",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "夏",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "雪",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "远",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "寒裔 - HYZ": [
+        {
+            "game": "永",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "残机消失之夜 - IAH": [
+        {
+            "game": "红",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "咏AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "大",
+            "role": "A1",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "梦春秋冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "琪春",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "文冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "魔春夏秋冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "鬼",
+            "role": "魔狼",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "虹",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "InvisibleNight - INT": [
+        {
+            "game": "妖",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "七份草莓圣代 - ISN": [
+        {
+            "game": "妖",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "妖",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "咏AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦C",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "大",
+            "role": "A1",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "鬼",
+            "role": "妖獭",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "家具屋 - KGY": [
+        {
+            "game": "永",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "kindx - kindx": [
+        {
+            "game": "妖",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "虹",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "雪",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "天星厨一号 - Kishin": [
+        {
+            "game": "夏",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "kitt1es - kitt1es": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "风铃 - ling": [
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "水之早苗 - LJH": [
+        {
+            "game": "永",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "叫春精 - LLW": [
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "岁月之痕 - LRS": [
+        {
+            "game": "妖",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Lunate_LanY - Lune": [
+        {
+            "game": "永",
+            "role": "妖B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "旅鼠 - LXN": [
+        {
+            "game": "红",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "妖",
+            "role": "咲B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "红B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "苗A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "魔",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "梦秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "鬼",
+            "role": "妖狼",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "虹",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "迪拉克之海 - LYX": [
+        {
+            "game": "红",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "妖",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "红AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔C",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "marksman - marksman": [
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "咏B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "镜 - mirror": [
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "妖",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "幕2",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "永恒木大之魂 - muda": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "风间语霖 - MYL": [
+        {
+            "game": "永",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "沙苗Sanae - nagisa": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "觉时恋梦梦恋醒 - nkn": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "夏の氷精 - NNHS": [
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "克劳恩啤酒 - NP9": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "OB - OB": [
+        {
+            "game": "大",
+            "role": "A1",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "小叶子Miv - Ohako": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "名字 - OVO": [
+        {
+            "game": "梦",
+            "role": "美",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Pen - Pen": [
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "PyThoN_Wu - PTN": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Lunar-sea - qyy": [
+        {
+            "game": "潮",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "夏",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "夏",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "真",
+            "role": "梦绯",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "神奇的红豆 - RedBN": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "苏 - Reisen": [
+        {
+            "game": "风",
+            "role": "魔C",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "清兰兰 - RESQ": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "纳兹燐 - rin": [
+        {
+            "game": "永",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "霈果-Peigo- - Rivers": [
+        {
+            "game": "永",
+            "role": "妖B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "八云雪琉璃 - Rurilitt": [
+        {
+            "game": "梦",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "妖",
+            "role": "咲B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "苒雨 - RY": [
+        {
+            "game": "妖",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "针喵 - RYB": [
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "虾饺 - Ryuuko": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "匿 - RZN": [
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "S-LCH - S-LCH": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "天岐宫乄星子 - Seiko": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "梦秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "幕1",
+            "role": "帕",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "幕2",
+            "role": "妖",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "远",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "epsilon - SHUXK": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "魔",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "小葵 - SLSPC": [
+        {
+            "game": "红",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "紫B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦BC",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "绀",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "夏",
+            "role": "恋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "一个生命体 - SMT": [
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "園田琴梨 - SND": [
+        {
+            "game": "红",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦ABC",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "苗B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "全",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "梦秋冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "琪冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "魔夏秋冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "若叶 - Spark": [
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "RNA逆转录病毒 - Sslj": [
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "妖B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔C",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "星海天下 - StarSeAs": [
+        {
+            "game": "夏",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "000 - SUZU": [
+        {
+            "game": "红",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "水鱼 - syaro": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Tan90 - Tan90": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "樱小路Asahi - TCC": [
+        {
+            "game": "红",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "妖",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "鬼",
+            "role": "妖狼",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "卷毛 - UFO": [
+        {
+            "game": "妖",
+            "role": "咲B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "-幽梦紫- - UMZ": [
+        {
+            "game": "永",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "冥A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "VPE - VPE": [
+        {
+            "game": "眠",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "一座水坝 - Wkrain": [
+        {
+            "game": "红",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Wong3437 - Wong3437": [
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "魔",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "梦冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "魔秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "nichijou的涂山苏苏 - wsy": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "W羽天 - wtx": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Aelita - wxc": [
+        {
+            "game": "永",
+            "role": "结界AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "全",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "魔",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "绿绿可柚 - WXQ": [
+        {
+            "game": "永",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "红A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "冥A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "紫AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "爱A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "蕾A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "妖A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "幽A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "九条アリス - XBH": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "全",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "吃货子sama - XCF": [
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "小猫头鹰777 - XMTY777": [
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "xiaoshitou11 - XST": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "大",
+            "role": "A1",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "虚无きょむ - XuWu": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "相濡以沫曲 - XYZ": [
+        {
+            "game": "永",
+            "role": "紫B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Yamada - Yamada": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Yem - Yem": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "妖梦糖 - YMT": [
+        {
+            "game": "永",
+            "role": "妖B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "家住幻想乡 - Yuka": [
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "紫B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "能用就吃翔 - yuki": [
+        {
+            "game": "神",
+            "role": "妖",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "ULK_ - YWH": [
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "妖",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "结界AB",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "神",
+            "role": "全",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "鬼",
+            "role": "全",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "御桐之人 - YZT": [
+        {
+            "game": "夏",
+            "role": "魔",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "夏",
+            "role": "苗",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "zhzhzh - zhzhzh": [
+        {
+            "game": "永",
+            "role": "冥B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "梦BC",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "星苗火紫 - zizi": [
+        {
+            "game": "风",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "天",
+            "role": "梦冬",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "ABC自然 - ZIRAN": [
+        {
+            "game": "神",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "夏",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "ZJM - ZJM": [
+        {
+            "game": "红",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔C",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "魔AC",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "星",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "zxxsmart - zxxsmart": [
+        {
+            "game": "风",
+            "role": "梦ABC",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "风",
+            "role": "魔C",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "Oblivion117 - ZY": [
+        {
+            "game": "红",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "妖",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "永",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "幕1",
+            "role": "梦",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "溜冰蚂蚁 - ZYT": [
+        {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "地",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "辉",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "SKT依姬酱 - NOSIGN": [
+        {
+            "game": "白",
+            "role": "梦A1",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "白",
+            "role": "魔B12",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+        {
+            "game": "白",
+            "role": "苗B1",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "阿燐 - NOSIGN": [
+        {
+            "game": "地",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ],
+    "纵横TTT - NOSIGN": [
+        {
+            "game": "永",
+            "role": "结界B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+    ]
 }
