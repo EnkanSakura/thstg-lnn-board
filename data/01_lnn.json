@@ -270,7 +270,19 @@
         },
         {
             "game": "永",
-            "role": "紫AB",
+            "role": "紫A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "紫B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -282,7 +294,19 @@
         },
         {
             "game": "永",
-            "role": "魔AB",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "魔B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -318,7 +342,19 @@
         },
         {
             "game": "永",
-            "role": "蕾AB",
+            "role": "蕾A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "蕾B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -342,7 +378,19 @@
         },
         {
             "game": "永",
-            "role": "幽AB",
+            "role": "幽A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "幽B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -366,7 +414,19 @@
         },
         {
             "game": "风",
-            "role": "魔AB",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        }
+                {
+            "game": "风",
+            "role": "魔B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -812,7 +872,19 @@
         },
         {
             "game": "永",
-            "role": "咏AB",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "咏B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -824,7 +896,19 @@
         },
         {
             "game": "永",
-            "role": "红AB",
+            "role": "红A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "红B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1052,7 +1136,19 @@
     "夜桜鎮魂歌 - Cerasis": [
         {
             "game": "永",
-            "role": "咏AB",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "咏B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1064,7 +1160,31 @@
         },
         {
             "game": "地",
-            "role": "梦ABC",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "地",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "地",
+            "role": "梦C",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1076,7 +1196,19 @@
         },
         {
             "game": "地",
-            "role": "魔AB",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "地",
+            "role": "魔B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1114,7 +1246,19 @@
     "心天音 - Cero": [
         {
             "game": "地",
-            "role": "梦AB",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "地",
+            "role": "梦B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1244,7 +1388,19 @@
         },
         {
             "game": "永",
-            "role": "结界AB",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "结界B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1256,7 +1412,19 @@
         },
         {
             "game": "永",
-            "role": "冥AB",
+            "role": "冥A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "冥B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1268,7 +1436,19 @@
         },
         {
             "game": "永",
-            "role": "紫AB",
+            "role": "紫A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "紫B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1592,7 +1772,19 @@
     "Maksim71 - Doll": [
         {
             "game": "妖",
-            "role": "梦AB",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "妖",
+            "role": "梦B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1756,7 +1948,19 @@
     "東方紺珠傳 - GZZ": [
         {
             "game": "妖",
-            "role": "咲AB",
+            "role": "咲A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "妖",
+            "role": "咲B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1904,7 +2108,19 @@
         },
         {
             "game": "星",
-            "role": "梦AB",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "星",
+            "role": "梦B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -2164,7 +2380,19 @@
         },
         {
             "game": "永",
-            "role": "咏AB",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "咏B",
             "rep": null,
             "live": null,
             "hand": null,
