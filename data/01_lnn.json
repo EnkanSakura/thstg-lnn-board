@@ -1044,7 +1044,18 @@
     "实况主本人 - Benren": [
         {
             "game": "天",
-            "role": "梦秋冬",
+            "role": "梦秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },        {
+            "game": "天",
+            "role": "梦冬",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1056,7 +1067,19 @@
         },
         {
             "game": "天",
-            "role": "魔秋冬",
+            "role": "魔秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "天",
+            "role": "魔冬",
             "rep": null,
             "live": null,
             "hand": null,
@@ -1682,7 +1705,19 @@
         },
         {
             "game": "风",
-            "role": "魔AC",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "风",
+            "role": "魔C",
             "rep": null,
             "live": null,
             "hand": null,
@@ -2189,7 +2224,7 @@
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
+            "data": "2023-01-21",
             "comment": ""
         }
     ],
@@ -2203,7 +2238,7 @@
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
+            "data": "2022-03-19",
             "comment": ""
         },
         {
@@ -2215,7 +2250,7 @@
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
+            "data": "2023-01-25",
             "comment": ""
         },
         {
@@ -2227,19 +2262,67 @@
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
+            "data": "2022-06-06",
             "comment": ""
         },
         {
             "game": "潮",
-            "role": "全",
+            "role": "灵梦",
             "rep": null,
             "live": null,
             "hand": null,
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
+            "data": "2021-11-18",
+            "comment": ""
+        },
+        {
+            "game": "潮",
+            "role": "赫卡提亚",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "2021-11-18",
+            "comment": ""
+        },
+        {
+            "game": "潮",
+            "role": "赫卡提亚",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "2021-12-02",
+            "comment": ""
+        },
+        {
+            "game": "潮",
+            "role": "魔理沙",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "2021-12-22",
+            "comment": ""
+        },
+        {
+            "game": "潮",
+            "role": "星",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "2021-12-14",
             "comment": ""
         },
         {
@@ -2251,7 +2334,7 @@
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
+            "data": "2023-01-06",
             "comment": ""
         },
         {
@@ -2263,7 +2346,7 @@
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
+            "data": "2022-02-22",
             "comment": ""
         },
         {
@@ -2275,8 +2358,8 @@
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
-            "comment": ""
+            "data": "2022-06-20",
+            "comment": "世界首杀"
         },
         {
             "game": "实",
@@ -2287,7 +2370,7 @@
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
+            "data": "2022-05-18",
             "comment": ""
         },
         {
@@ -2299,7 +2382,7 @@
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
+            "data": "2022-10-16",
             "comment": ""
         },
         {
@@ -2311,7 +2394,7 @@
             "key": null,
             "screen": null,
             "link": null,
-            "data": "-",
+            "data": "2023-03-10",
             "comment": ""
         },
         {
@@ -2500,7 +2583,31 @@
         },
         {
             "game": "天",
-            "role": "梦春秋冬",
+            "role": "梦春",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "天",
+            "role": "梦秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "天",
+            "role": "梦冬",
             "rep": null,
             "live": null,
             "hand": null,
@@ -2536,7 +2643,43 @@
         },
         {
             "game": "天",
-            "role": "魔春夏秋冬",
+            "role": "魔春",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "天",
+            "role": "魔夏",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "天",
+            "role": "魔秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "天",
+            "role": "魔冬",
             "rep": null,
             "live": null,
             "hand": null,
@@ -2612,7 +2755,19 @@
         },
         {
             "game": "永",
-            "role": "咏AB",
+            "role": "咏A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "咏B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -2944,7 +3099,19 @@
         },
         {
             "game": "风",
-            "role": "梦AB",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "风",
+            "role": "梦B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -3114,7 +3281,19 @@
         },
         {
             "game": "永",
-            "role": "红AB",
+            "role": "红A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "红B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -3962,7 +4141,19 @@
         },
         {
             "game": "辉",
-            "role": "梦AB",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "辉",
+            "role": "梦B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -4038,7 +4229,31 @@
         },
         {
             "game": "风",
-            "role": "梦ABC",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "风",
+            "role": "梦B",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "风",
+            "role": "梦C",
             "rep": null,
             "live": null,
             "hand": null,
@@ -4098,7 +4313,19 @@
         },
         {
             "game": "天",
-            "role": "梦秋冬",
+            "role": "梦秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "天",
+            "role": "梦冬",
             "rep": null,
             "live": null,
             "hand": null,
@@ -4122,7 +4349,31 @@
         },
         {
             "game": "天",
-            "role": "魔夏秋冬",
+            "role": "魔夏",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "天",
+            "role": "魔秋",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "天",
+            "role": "魔冬",
             "rep": null,
             "live": null,
             "hand": null,
@@ -4328,7 +4579,19 @@
         },
         {
             "game": "风",
-            "role": "梦AB",
+            "role": "梦A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "风",
+            "role": "梦B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -4560,7 +4823,20 @@
     "Aelita - wxc": [
         {
             "game": "永",
-            "role": "结界AB",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+            "Aelita - wxc": [
+        {
+            "game": "永",
+            "role": "结界B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -4682,7 +4958,19 @@
         },
         {
             "game": "永",
-            "role": "紫AB",
+            "role": "紫A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "紫B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -5042,7 +5330,19 @@
         },
         {
             "game": "永",
-            "role": "结界AB",
+            "role": "结界A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "永",
+            "role": "结界B",
             "rep": null,
             "live": null,
             "hand": null,
@@ -5232,7 +5532,19 @@
         },
         {
             "game": "地",
-            "role": "魔AC",
+            "role": "魔A",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "地",
+            "role": "魔C",
             "rep": null,
             "live": null,
             "hand": null,
@@ -5336,36 +5648,36 @@
             "game": "风",
             "role": "梦B",
             "rep": null,
-            "live": null,
-            "hand": null,
-            "key": null,
-            "screen": null,
+            "live": "×",
+            "hand": "×",
+            "key": "×",
+            "screen": "×",
             "link": null,
-            "data": "-",
+            "data": "2022-04-11",
             "comment": ""
         },
         {
             "game": "地",
             "role": "梦A",
             "rep": null,
-            "live": null,
-            "hand": null,
-            "key": null,
-            "screen": null,
-            "link": null,
-            "data": "-",
+            "live": "×",
+            "hand": "×",
+            "key": "×",
+            "screen": "×",
+            "link": "×",
+            "data": "2022-04-15",
             "comment": ""
         },
         {
             "game": "辉",
             "role": "咲A",
             "rep": null,
-            "live": null,
-            "hand": null,
-            "key": null,
-            "screen": null,
-            "link": null,
-            "data": "-",
+            "live": "×",
+            "hand": "×",
+            "key": "×",
+            "screen": "×",
+            "link": "×",
+            "data": "2020-10-30",
             "comment": ""
         }
     ],
@@ -5384,7 +5696,19 @@
         },
         {
             "game": "白",
-            "role": "魔B12",
+            "role": "魔B1",
+            "rep": null,
+            "live": null,
+            "hand": null,
+            "key": null,
+            "screen": null,
+            "link": null,
+            "data": "-",
+            "comment": ""
+        },
+                {
+            "game": "白",
+            "role": "魔B2",
             "rep": null,
             "live": null,
             "hand": null,
