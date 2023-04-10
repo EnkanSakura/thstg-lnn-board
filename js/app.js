@@ -1,5 +1,5 @@
 const boolKeyList = [
-  'rep', 'live', 'hand', 'key', 'screen', 'link'
+  'rep', 'live', 'record', 'hand', 'key', 'screen', 'link'
 ];
 
 // 获取当前页面的 URL
@@ -17,16 +17,16 @@ fetch(`data/${tableData}`)
     // 查找表格元素
     const table = document.querySelector('tbody');
     // 按 ID 排序
-    let keySort = Object.keys(data);
-    // let keySort = Object.keys(data).sort(function (a, b) {
-    //   const aid = a.replace(' ', '').split('-');
-    //   const bid = b.replace(' ', '').split('-');
-    //   if (aid[0].localeCompare(bid[0]) === 0) {
-    //     return aid[1].localeCompare(bid[1]);
-    //   } else {
-    //     return aid[0].localeCompare(bid[0]);
-    //   }
-    // });
+    // let keySort = Object.keys(data);
+    let keySort = Object.keys(data).sort(function (a, b) {
+      const aid = a.replace(' ', '').split('-');
+      const bid = b.replace(' ', '').split('-');
+      if (aid[0].localeCompare(bid[0]) === 0) {
+        return aid[1].localeCompare(bid[1]);
+      } else {
+        return aid[0].localeCompare(bid[0]);
+      }
+    });
     // 渲染表格数据
     keySort.forEach(id => {
       const userData = data[id];

@@ -27,35 +27,12 @@ tr:nth-child(even) {
     background-color: #d3d3d3;
 }
 
+/* 顶栏样式 */
+.navbar .btn-back {
+    width: 60px;
+}
+
 /* 按钮样式 */
-.btn {
-    width: auto;
-    height: auto;
-    line-height: normal;
-}
-
-.btn-back {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    background-color: #f1f1f1;
-    color: black;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.btn-back:hover {
-    background-color: #ddd;
-}
-
-.btn-back:active {
-    background-color: #007bff;
-    color: white;
-}
-
 .btn-url {
     background-color: #8d8d8d;
     color: rgb(245, 252, 153);

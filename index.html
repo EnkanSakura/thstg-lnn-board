@@ -1,19 +1,21 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="zh-cn">
-    <head>
-        <meta charset="UTF-8" />
-        <title>东方STG榜单</title>
-        <link rel="stylesheet" href="css/base.css" />
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8" />
+    <title>东方STG榜单</title>
+    <link rel="stylesheet" href="css/base.css" />
+</head>
+<body>
+    <div class="container">
         <div class="navbar">
             <div class="left">
                 <div></div>
             </div>
             <div class="center">
-                <div class="btn btn-navbar" onclick="location.href='01_lnn.html'">LNN</div>
-                <div class="btn btn-navbar" onclick="location.href='02_chicken.html'">🐓</div>
+                <!-- <div class="btn btn-navbar" onclick="location.href='01_official.html'">官</div>
+                <div class="btn btn-navbar" onclick="location.href='02_doujin.html'">②</div>
+                <div class="btn btn-navbar" onclick="location.href='03_chicken.html'">🐓</div> -->
             </div>
             <div class="right">
                 <div class="btn btn-navbar">
@@ -21,13 +23,18 @@
                         <img src="res/github-mark/github-mark.png" alt="GitHub Logo" width="40" height="40">
                     </a>
                 </div>
-                <div class="btn btn-navbar">关于</div>
+                <div class="btn btn-navbar btn-hover">关于</div>
             </div>
         </div>
-        <h1>东方STG榜单</h1>
-        <div class="btn-container">
-            <div class="btn" onclick="location.href='01_official.html'">官作LNN榜</div>
-            <div class="btn" onclick="location.href='02_doujin.html'">同人作LNN榜</div>
-            <div class="btn" onclick="location.href='03_chicken.html'">鸡榜</div>
-    </body>
+
+        <div class="table-container">
+            <h1>东方STG榜单</h1>
+            <div class="btn-container">
+                <div class="btn btn-index" onclick="location.href='01_official.html'">官作LNN</div>
+                <div class="btn btn-index" onclick="location.href='02_doujin.html'">同人作LNN</div>
+                <div class="btn btn-index" onclick="location.href='03_chicken.html'">鸡</div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
