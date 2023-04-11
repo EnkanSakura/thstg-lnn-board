@@ -24,7 +24,13 @@
                         <img src="res/github-mark/github-mark.png" alt="GitHub Logo" width="40" height="40">
                     </a>
                 </div>
-                <div class="btn btn-navbar">关于</div>
+                <div class="btn btn-navbar" id="target-about">关于</div>
+                <script>
+                    suspendedAbout = new Suspended(
+                        targetId = "target-about",
+                        content = './data/about.txt'
+                    );
+                </script>
             </div>
         </div>
 
