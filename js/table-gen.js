@@ -3,7 +3,7 @@ const boolKeyList = [
   'rep', 'live', 'record', 'hand', 'key', 'screen', 'link'
 ];
 // id2name map
-const gameMap = {
+const officialGameMap = {
   '01': {'zh': '灵异传', 'en': 'HRtP'},
   '02': {'zh': '封魔录', 'en': 'SoEW'},
   '03': {'zh': '梦时空', 'en': 'PoDD'},
@@ -23,6 +23,37 @@ const gameMap = {
   '17': {'zh': '鬼形兽', 'en': 'WBaWC'},
   '18': {'zh': '虹龙洞', 'en': 'UM'},
   '128': {'zh': '妖精大战争', 'en': 'GFW'}
+}
+const doujinGameMap = {
+  '光': '光条阁',
+  '夏': '夏夜祭',
+  '幕1': '幕华祭 红月',
+  '幕2': '幕华祭 春雪',
+  '潮': '潮圣书',
+  '祈': '祈华梦',
+  '栖': '栖霞园',
+  '花': '花逐夜',
+  '雪': '雪莲华',
+  '导': '导命树',
+  '桃': '桃源宫',
+  '白': '白尘记',
+  '真': '真珠岛',
+  '邪': '邪星章',
+  '鬼': '鬼葬剑',
+  '魔': '魔宝城',
+  '琴': '琴鼓歌',
+  '门': '门殊钱',
+  '危': '危险领',
+  '宵': '宵海格',
+  '梦': '梦终剧',
+  '海': '海惠堂',
+  '臑': '臑茶魔',
+  '妖': '妖精郷',
+  '远': '远空界',
+  '催': '催狐谭',
+  '实': '实在相',
+  '眠': '眠世界',
+  '百': '百花宴'
 }
 
 // get current page language
@@ -79,7 +110,11 @@ fetch(`data/${tableData}`)
               // add game row, merge row
               const gameCell = document.createElement('td');
               gameCell.rowSpan = recordData.length;
-              gameCell.textContent = gameMap[game][lang.split('-')[0]];
+              if (page === '02-doujin.html') {
+                gameCell.textContent = doujinGameMap[game] || game;
+              } else {
+                gameCell.textContent = officialGameMap[game][lang.split('-')[0]];
+              }
               row.appendChild(gameCell);
               isGameRow = false;
             }
@@ -116,7 +151,3 @@ fetch(`data/${tableData}`)
     });// end of idList.forEach
   }// end of fetch.then
 );// end of fetch
-
-function goBack() {
-  location.assign(location.href.split('/').slice(0, -1).join('/'));
-}

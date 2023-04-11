@@ -1,0 +1,620 @@
+{
+    "411022 - 411022": {
+        "夏": [
+            {
+                "role": "苗",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "A2 - A2": {
+        "白": [
+            {
+                "role": "苗A2",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ],
+        "百": [
+            {
+                "role": "机B",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ],
+        "海": [
+            {
+                "role": "梦A",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ],
+        "晶": [
+            {
+                "role": "魔D",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ],
+        "幕1": [
+            {
+                "role": "帕",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "纯梦 - chunm": {
+        "夏": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "神櫻吹雪 - CYH/RST": {
+        "幕1": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            },
+            {
+                "role": "魔",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            },
+            {
+                "role": "帕",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "小田原シクラメン - Eek": {
+        "魔": [
+            {
+                "role": "苗B",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "HUCK - HUCK": {
+        "潮": [
+            {
+                "role": "灵梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "2021-11-18",
+                "comment": ""
+            },
+            {
+                "role": "赫卡提亚",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "2021-12-02",
+                "comment": ""
+            },
+            {
+                "role": "魔理沙",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "2021-12-22",
+                "comment": ""
+            },
+            {
+                "role": "星",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "2021-12-14",
+                "comment": ""
+            }
+        ],
+        "催": [
+            {
+                "role": "龙B",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "2023-01-06",
+                "comment": ""
+            }
+        ],
+        "门": [
+            {
+                "role": "梦A",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "2022-02-22",
+                "comment": ""
+            }
+        ],
+        "眠": [
+            {
+                "role": "全",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "2022-06-20",
+                "comment": "世界首杀"
+            }
+        ],
+        "实": [
+            {
+                "role": "妖",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "2022-05-18",
+                "comment": ""
+            }
+        ],
+        "夏": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "2022-10-16",
+                "comment": ""
+            }
+        ],
+        "雪": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "2023-03-10",
+                "comment": ""
+            }
+        ],
+        "远": [
+            {
+                "role": "梦A",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "kindx - kindx": {
+        "雪": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "天星厨一号 - Kishin": {
+        "夏": [
+            {
+                "role": "苗",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "镜 - mirror": {
+        "幕2": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "Lunar-sea - qyy": {
+        "潮": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ],
+        "夏": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            },
+            {
+                "role": "苗",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ],
+        "真": [
+            {
+                "role": "梦绯",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "天岐宫乄星子 - Seiko": {
+        "幕1": [
+            {
+                "role": "帕",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ],
+        "幕2": [
+            {
+                "role": "妖",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ],
+        "远": [
+            {
+                "role": "梦A",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "小葵 - SLSPC": {
+        "夏": [
+            {
+                "role": "恋",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "星海天下 - StarSeAs": {
+        "夏": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "VPE - VPE": {
+        "眠": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "御桐之人 - YZT": {
+        "夏": [
+            {
+                "role": "魔",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            },
+            {
+                "role": "苗",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "ABC自然 - ZIRAN": {
+        "夏": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "Oblivion117 - ZY": {
+        "幕1": [
+            {
+                "role": "梦",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    },
+    "SKT依姬酱 - NOSIGN": {
+        "白": [
+            {
+                "role": "梦A1",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            },
+            {
+                "role": "魔B1",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            },
+            {
+                "role": "魔B2",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            },
+            {
+                "role": "苗B1",
+                "rep": null,
+                "live": null,
+                "record": null,
+                "hand": null,
+                "key": null,
+                "screen": null,
+                "link": null,
+                "data": "-",
+                "comment": ""
+            }
+        ]
+    }
+}
