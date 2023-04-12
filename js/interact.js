@@ -19,11 +19,10 @@ class Suspended {
     this.suspended = document.createElement('div');
     this.suspended.classList.add('suspended');
     this.suspended.classList.add('inactive');
-    // this.suspended.innerHTML = this.html;
-    fetch(this.content)
-      .then(res => res.text())
-      .then(html => {
-        this.suspended.innerHTML = html;
+    fetch(`./html/${this.content}.html`)
+      .then(response => response.text())
+      .then(data => {
+        this.suspended.innerHTML = data;
       });
 
     container.appendChild(this.suspended);
