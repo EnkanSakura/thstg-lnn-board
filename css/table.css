@@ -37,4 +37,8 @@ tr:nth-child(even) {
     background-color: #8d8d8d;
     color: rgb(245, 252, 153);
     padding: 5px 10px;
+    border-radius: 5px;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
 }

@@ -147,14 +147,14 @@
         "魔": [
             {
                 "role": "苗B",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
-                "date": "-",
+                "rep": true,
+                "live": true,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV19r4y1U7AM",
+                "date": "2021/12/21",
                 "comment": ""
             }
         ]
@@ -163,49 +163,49 @@
         "潮": [
             {
                 "role": "灵梦",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": false,
+                "record": true,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1i3411D7W7",
                 "date": "2021-11-18",
                 "comment": ""
             },
             {
                 "role": "赫卡提亚",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": false,
+                "record": true,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1i3411D7W7/",
                 "date": "2021-12-02",
                 "comment": ""
             },
             {
                 "role": "魔理沙",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": false,
+                "record": true,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1i3411D7W7",
                 "date": "2021-12-22",
                 "comment": ""
             },
             {
                 "role": "星",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": false,
+                "record": true,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1i3411D7W7",
                 "date": "2021-12-14",
                 "comment": ""
             }
@@ -213,27 +213,27 @@
         "催": [
             {
                 "role": "龙B",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": false,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1Td4y1j78s",
                 "date": "2023-01-06",
-                "comment": ""
+                "comment": "全卡"
             }
         ],
         "门": [
             {
                 "role": "梦A",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": false,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1mP4y1F7iX",
                 "date": "2022-02-22",
                 "comment": ""
             }
@@ -241,13 +241,13 @@
         "眠": [
             {
                 "role": "全",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": false,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1AW4y1r7tt/",
                 "date": "2022-06-20",
                 "comment": "世界首杀"
             }
@@ -255,13 +255,13 @@
         "实": [
             {
                 "role": "妖",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": false,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1J5411R774/",
                 "date": "2022-05-18",
                 "comment": ""
             }
@@ -269,13 +269,13 @@
         "夏": [
             {
                 "role": "梦",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": false,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV14e411V7n9/",
                 "date": "2022-10-16",
                 "comment": ""
             }
@@ -283,13 +283,13 @@
         "雪": [
             {
                 "role": "梦",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": false,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1n54y1M7ga/",
                 "date": "2023-03-10",
                 "comment": ""
             }
@@ -297,12 +297,12 @@
         "远": [
             {
                 "role": "梦A",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
+                "rep": true,
+                "live": false,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
                 "link": null,
                 "date": "-",
                 "comment": ""
@@ -313,12 +313,12 @@
         "雪": [
             {
                 "role": "梦",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
+                "rep": true,
+                "live": true,
+                "record": true,
+                "hand": false,
+                "key": false,
+                "screen": false,
                 "link": null,
                 "date": "-",
                 "comment": ""
@@ -361,13 +361,13 @@
         "潮": [
             {
                 "role": "梦",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": true,
+                "live": true,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1ER4y1y7KR",
                 "date": "-",
                 "comment": ""
             }
@@ -375,39 +375,55 @@
         "夏": [
             {
                 "role": "梦",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
+                "rep": "https://pan.baidu.com/s/1zkhM5ZeDrU6ox46tEo_hsg ac7d",
+                "live": false,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1qv4y1V7bq",
                 "date": "-",
                 "comment": ""
             },
             {
                 "role": "苗",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
-                "date": "-",
+                "rep": true,
+                "live": false,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1p24y1u7MV",
+                "date": "2023/3/17",
                 "comment": ""
             }
         ],
         "真": [
             {
                 "role": "梦绯",
+                "rep": "https://pan.baidu.com/s/1wtj1qH1vBOXi73IRz1ZteQ g722",
+                "live": false,
+                "record": false,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1Mv4y1r7hd",
+                "date": "2023/1/30",
+                "comment": "全卡"
+            }
+        ]
+    },
+    "神奇的红豆 - RedBN": {
+        "东方魔晶精": [
+            {
+                "role": "魔B",
                 "rep": null,
                 "live": null,
                 "record": null,
                 "hand": null,
                 "key": null,
                 "screen": null,
-                "link": null,
+                "link": "https://www.bilibili.com/video/BV1kA411R7Tw",
                 "date": "-",
                 "comment": ""
             }
@@ -537,14 +553,14 @@
         "夏": [
             {
                 "role": "梦",
-                "rep": null,
-                "live": null,
-                "record": null,
-                "hand": null,
-                "key": null,
-                "screen": null,
-                "link": null,
-                "date": "-",
+                "rep": true,
+                "live": false,
+                "record": true,
+                "hand": false,
+                "key": false,
+                "screen": false,
+                "link": "https://www.bilibili.com/video/BV1qP411L7jA",
+                "date": "2022/8/13",
                 "comment": ""
             }
         ]

@@ -132,8 +132,10 @@ fetch(`data/${tableData}`)
                 // if not boolean, it should be url
                 // all string value will be treated as url
                 const link = document.createElement('a');
-                link.href = record[key];
-                link.textContent = '查看';
+                ltmp = record[key].split(' ');
+                console.log(ltmp);
+                link.href = record[key].split(' ')[0];
+                link.textContent = ltmp[1] ? ltmp[1] : '查看';
                 link.target = '_blank';
                 link.className = 'btn btn-url'
                 cell.appendChild(link);
