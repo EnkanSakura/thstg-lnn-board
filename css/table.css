@@ -27,11 +27,6 @@ tr:nth-child(even) {
     background-color: #d3d3d3;
 }
 
-/* 顶栏样式 */
-.navbar .btn-back {
-    width: 60px;
-}
-
 /* 按钮样式 */
 .btn-url {
     background-color: #8d8d8d;

@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>东方STG榜单</title>
     <link rel="stylesheet" href="css/base.css">
-    <script src="js/interact.js"></script>
+    <script src="components/suspended-box.js"></script>
+    <script src="js/functions.js"></script>
 </head>
 <body>
     <div class="container">
@@ -14,23 +15,27 @@
                 <div></div>
             </div>
             <div class="center">
-                <!-- <div class="btn btn-navbar" onclick="location.href='01-official.html'">官</div>
-                <div class="btn btn-navbar" onclick="location.href='02-doujin.html'">②</div>
-                <div class="btn btn-navbar" onclick="location.href='03-chicken.html'">🐓</div> -->
+                <div></div>
             </div>
             <div class="right">
+				<div class="btn btn-navbar">
+					<a href="https://space.bilibili.com/4275270" target="_blank">
+						<img src="res/bilibili.svg" alt="Bilibili">
+					</a>
+				</div>
                 <div class="btn btn-navbar">
                     <a href="https://github.com/EnkanSakura/thstg-lnn-board" target="_blank">
-                        <img src="res/github-mark/github-mark.png" alt="GitHub Logo" width="40" height="40">
+                        <img src="res/github-mark/github-mark.svg" alt="GitHub Logo" width="40" height="40">
                     </a>
                 </div>
-                <div class="btn btn-navbar" id="target-about">关于</div>
-                <script>
-                    suspendedAbout = new Suspended(
-                        targetId = "target-about",
-                        content = 'about'
-                    );
-                </script>
+                <div class="btn btn-navbar" id="target-help">
+                    <img src="res/help.svg" alt="Help" width="40" height="40">
+                    <script>suspendedAbout = new SuspendedBox(targetId = "target-help",content = 'help');</script>
+                </div>
+                <div class="btn btn-navbar" id="target-about">
+                    <img src="res/about.svg" alt="About" width="40" height="40">
+                    <script>suspendedAbout = new SuspendedBox(targetId = "target-about",content = 'about');</script>
+                </div>
             </div>
         </div>
 
@@ -39,7 +44,7 @@
             <div class="btn-container">
                 <div class="btn btn-index" onclick="location.href='01-official.html'">官作LNN</div>
                 <div class="btn btn-index" onclick="location.href='02-doujin.html'">同人作LNN</div>
-                <div class="btn btn-index" onclick="location.href='03-chicken.html'">鸡</div>
+                <!-- <div class="btn btn-index" onclick="location.href='03-chicken.html'">鸡</div> -->
             </div>
         </div>
     </div>

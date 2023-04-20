@@ -1,10 +1,24 @@
+id: str(nick + sign)
+
+// 玩家信息
+id: {
+    avatar: 直接扒比利比利的头像链接,
+    lnn: LNN数量,
+    social: {// 有多个则纵向排列
+        qq: qq号,
+        bilibili: bilibili主页链接,
+        twitter: twitter主页链接,
+        youtube: youtube主页链接,
+        other: 其他联系方式
+    }
+}
+
+// 成绩记录
 table: {
     id: {
         作品名: [record]
     }
 }
-
-id: (nick, sign)
 
 // LNN榜
 record: {

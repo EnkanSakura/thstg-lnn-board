@@ -133,7 +133,6 @@ fetch(`data/${tableData}`)
                 // all string value will be treated as url
                 const link = document.createElement('a');
                 ltmp = record[key].split(' ');
-                console.log(ltmp);
                 link.href = record[key].split(' ')[0];
                 link.textContent = ltmp[1] ? ltmp[1] : '查看';
                 link.target = '_blank';

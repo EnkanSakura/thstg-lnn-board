@@ -1,31 +1,26 @@
-// 返回键
-function goBack() {
-  location.assign(location.href.split('/').slice(0, -1).join('/'));
-}
-
 // 悬浮窗
-class Suspended {
+class SuspendedBox {
   constructor(targetId, content) {
     this.target = document.getElementById(targetId);
     this.content = content;
-    this.suspended = null;
+    this.suspended-box = null;
     this.mask = null;
     this.active = false;
     this.init();
   }
 
-  init () {
+  init() {
     const container = document.getElementsByClassName('container')[0];
-    this.suspended = document.createElement('div');
-    this.suspended.classList.add('suspended');
-    this.suspended.classList.add('inactive');
+    this.suspended-box = document.createElement('div');
+    this.suspended-box.classList.add('suspended-box');
+    this.suspended-box.classList.add('inactive');
     fetch(`./html/${this.content}.html`)
       .then(response => response.text())
       .then(data => {
-        this.suspended.innerHTML = data;
+        this.suspended-box.innerHTML = data;
       });
 
-    container.appendChild(this.suspended);
+    container.appendChild(this.suspended-box);
     this.mask = document.createElement('div');
     this.mask.classList.add('mask');
     container.appendChild(this.mask);
@@ -34,23 +29,23 @@ class Suspended {
     this.mask.addEventListener('click', this.hide.bind(this));
   }
 
-  show () {
+  show() {
     if (this.active) return;
 
     this.mask.classList.add('active');
-    this.suspended.classList.add('active');
+    this.suspended-box.classList.add('active');
     this.active = true;
     this.mask.classList.remove('inactive');
-    this.suspended.classList.remove('inactive');
+    this.suspended-box.classList.remove('inactive');
   }
 
-  hide () {
+  hide() {
     if (!this.active) return;
 
     this.mask.classList.add('inactive');
-    this.suspended.classList.add('inactive');
+    this.suspended-box.classList.add('inactive');
     this.active = false;
     this.mask.classList.remove('active');
-    this.suspended.classList.remove('active');
+    this.suspended-box.classList.remove('active');
   }
 }

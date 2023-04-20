@@ -11,6 +11,11 @@ body {
     text-align: center;
 }
 
+img {
+    width: 45px;
+    height: 45px;
+}
+
 /* 按钮样式 */
 .btn-container {
     display: flex;
@@ -21,8 +26,8 @@ body {
 .btn {
     display: inline-block;
     width: 120px;
-    height: 40px;
-    line-height: 40px;
+    height: 45px;
+    line-height: 45px;
     text-align: center;
     background-color: #333;
     color: #fff;
@@ -59,7 +64,7 @@ body {
     display: flex;
     top: 0;
     width: 100%;
-    height: 40px;
+    height: 45px;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to bottom, #333 0%, #555 100%);
@@ -80,9 +85,9 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
 }
 
 .navbar .btn:hover {
@@ -101,7 +106,7 @@ body {
 }
 
 /* 悬浮窗样式 */
-.suspended {
+.suspended-box {
     position: absolute;
     width: 30%;
     height: 40%;
@@ -117,26 +122,26 @@ body {
     transition: opacity 0.2s ease-in-out;
 }
 
-.suspended .title {
+.suspended-box .title {
     font-size: 32px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.suspended .content * {
+.suspended-box .content * {
     font-size: 16px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.suspended.active {
+.suspended-box.active {
     display: block;
     opacity: 1;
     transition: opacity 0.2s ease-in-out;
 }
 
-.suspended.inactive {
+.suspended-box.inactive {
     display: none;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;

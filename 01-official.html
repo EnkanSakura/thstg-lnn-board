@@ -4,38 +4,40 @@
 	<title>官作LNN榜</title>
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/table.css">
+    <script src="components/suspended-box.js"></script>
 	<script src="js/table-gen.js"></script>
-    <script src="js/interact.js"></script>
+    <script src="js/functions.js"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="navbar">
 			<div class="left">
-				<div class="btn btn-back" onclick="goBack()">返回</div>
+				<div class="btn btn-back" onclick="goBack()">
+					<img src="res/back.svg" alt="Back">
+				</div>
 			</div>
 			<div class="center">
 				<div></div>
 			</div>
 			<div class="right">
 				<div class="btn btn-navbar">
-					<a href="https://github.com/EnkanSakura/thstg-lnn-board" target="_blank">
-						<img src="res/github-mark/github-mark.png" alt="GitHub Logo" width="40" height="40">
+					<a href="https://space.bilibili.com/4275270" target="_blank">
+						<img src="res/bilibili.svg" alt="Bilibili">
 					</a>
 				</div>
-                <div class="btn btn-navbar" id="target-about">关于</div>
-                <script>
-                    suspendedAbout = new Suspended(
-                        targetId = "target-about",
-                        html = `
-                            <div class="suspended">
-                                <div class="suspended-content">
-                                    <div class="suspended-title">关于</div>
-                                    <div class="suspended-text"></div>
-                                </div>
-                            </div>
-                        `
-                    );
-                </script>
+				<div class="btn btn-navbar">
+					<a href="https://github.com/EnkanSakura/thstg-lnn-board" target="_blank">
+						<img src="res/github-mark/github-mark.svg" alt="GitHub Logo">
+					</a>
+				</div>
+                <div class="btn btn-navbar" id="target-help">
+                    <img src="res/help.svg" alt="Help" width="40" height="40">
+                    <script>suspendedAbout = new SuspendedBox(targetId = "target-help",content = 'help');</script>
+                </div>
+                <div class="btn btn-navbar" id="target-about">
+                    <img src="res/about.svg" alt="About" width="40" height="40">
+                    <script>suspendedAbout = new SuspendedBox(targetId = "target-about",content = 'about');</script>
+                </div>
 			</div>
 		</div>
 
