@@ -1,8 +1,7 @@
-# 监听 master 分支
 on:
   push:
     branches:
-      - master
+      - main
 
 # action 名称
 name: Contributes
