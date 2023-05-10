@@ -21,9 +21,14 @@ function goBack(){
 
 function showpage(id){
     var contentbody = document.querySelector('.contentbody');
+    if(id=='01-official'){
+        title='官作LNN榜'
+    }else if(id=='02-doujin'){
+        title='同人作LNN榜'
+    }
     contentbody.innerHTML = `
     <div class="table-container">
-        <h1>官作LNN榜</h1>
+        <h1>${title}</h1>
         <table>
             <thead>
             <tr>
