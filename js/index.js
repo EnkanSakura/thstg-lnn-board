@@ -11,16 +11,24 @@ defaultpage=`<div class="table-container">
 
 document.addEventListener('DOMContentLoaded', function() {
     var contentbody = document.querySelector('.contentbody');
+    var left = document.querySelector('.left');
     contentbody.innerHTML = defaultpage;
+    left.innerHTML = ``;
 });
 
 function goBack(){
     var contentbody = document.querySelector('.contentbody');
+    var left = document.querySelector('.left');
     contentbody.innerHTML = defaultpage;
+    left.innerHTML = ``;
 }
 
-function showpage(id){
+async function showpage(id){
     var contentbody = document.querySelector('.contentbody');
+    var left = document.querySelector('.left');
+    left.innerHTML = `<div class="btn btn-back" onclick="goBack()">
+    <img src="res/back.svg" alt="Back">
+</div>`;
     if(id=='01-official'){
         title='官作LNN榜'
     }else if(id=='02-doujin'){
@@ -50,8 +58,12 @@ function showpage(id){
                 <!-- Insert table data here using JavaScript -->
             </tbody>
         </table>
+        <div class="loadingtext"></div>
     </div>`
-    table(id);
+    var loadingtext = document.querySelector('.loadingtext');
+    loadingtext.innerHTML = `<div class="loadingtext">正在加载...</div>`;
+    await table(id);
+    loadingtext.innerHTML = ``;
 }
 
 // boolean row List
@@ -114,13 +126,13 @@ const doujinGameMap = {
 
 // get current page language
 
-function table(pid){
+async function table(pid){
 
     const lang = document.querySelector('html').lang;
     const tableData = pid+".json";
     //console.log(pid)
     // load json data
-    fetch(`data/${tableData}`)
+    await fetch(`data/${tableData}`)
         .then(response => response.json())
         .then(data => {
             // get table element
