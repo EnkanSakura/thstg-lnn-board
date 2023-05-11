@@ -63,6 +63,13 @@ EnkanSakura
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Yuqi154">
+            <img src="https://avatars.githubusercontent.com/u/92249309?v=4" width="100;" alt="Yuqi154"/>
+            <br />
+            <sub><b>Fuyuka</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/NightEarl015">
             <img src="https://avatars.githubusercontent.com/u/129808561?v=4" width="100;" alt="NightEarl015"/>
             <br />
@@ -74,6 +81,14 @@ EnkanSakura
             <img src="https://avatars.githubusercontent.com/u/129814939?v=4" width="100;" alt="MarisaOne"/>
             <br />
             <sub><b>MarisaOne</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/asakamifuyuka">
+            <img src="https://avatars.githubusercontent.com/u/133137861?v=4" width="100;" alt="asakamifuyuka"/>
+            <br />
+            <sub><b>asakamifuyuka</b></sub>
         </a>
     </td></tr>
 </table>
