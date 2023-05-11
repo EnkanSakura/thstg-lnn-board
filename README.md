@@ -88,7 +88,7 @@ EnkanSakura
         <a href="https://github.com/asakamifuyuka">
             <img src="https://avatars.githubusercontent.com/u/133137861?v=4" width="100;" alt="asakamifuyuka"/>
             <br />
-            <sub><b>asakamifuyuka</b></sub>
+            <sub><b>Asakamifuyuka</b></sub>
         </a>
     </td></tr>
 </table>
