@@ -84,7 +84,7 @@ async function showpage(id) {
         for (const key in officialGameMap) {
             if (officialGameMap.hasOwnProperty(key)) {
                 const option = document.createElement('option');
-                option.value = officialGameMap[key][langs];
+                option.value = key;
                 option.textContent = officialGameMap[key][langs];
                 filterSelect.appendChild(option);
             }
@@ -93,75 +93,38 @@ async function showpage(id) {
         for (const key in doujinGameMap) {
             if (doujinGameMap.hasOwnProperty(key)) {
                 const option = document.createElement('option');
-                option.value = doujinGameMap[key];
+                option.value = key;
                 option.textContent = doujinGameMap[key];
                 filterSelect.appendChild(option);
             }
         }
     }
 
-
-
-    // 获取下拉菜单元素
-    const gameSelect = document.getElementById('game');
-    const roleSelect = document.getElementById('role');
-
-    // 添加选择事件处理程序
+    gamevalue = "No_filter";
+    rolevalue = "No_filter";
 
     var loadingtext = document.querySelector('.loadingtext');
     loadingtext.innerHTML = `<div class="loadingtext">正在加载...</div>`;
     await process(id);
     loadingtext.innerHTML = ``;
 
-    // 获取表格
-    const rows = document.getElementsByTagName('tr');
-    // 遍历每一行，获取昵称对应的rowspan
-    for (let i = 1; i < rows.length; i++) {
-        const row = rows[i];
-        row.style.display = 'table-row';
+    // 获取下拉菜单元素
+    const gameSelect = document.getElementById('game');
+    const roleSelect = document.getElementById('role');
+
+    function filter() {
+        console.log('filter');
+        gamevalue = gameSelect.value;
+        rolevalue = roleSelect.value;
+        table(id)
     }
 
+    // 添加选择事件处理程序
     gameSelect.addEventListener('change', filter);
     roleSelect.addEventListener('change', filter);
 
+
 }
-
-function filter() {
-
-    // 初始化当前行的索引和当前列的索引
-    let rowIndex = 0;
-    let columnIndex = 0;
-
-    // 遍历每个 <tr> 元素
-    const rows = document.getElementsByTagName('tr');
-    for (let i = 1; i < rows.length; i++) {
-        const row = rows[i];
-        // 获取当前行的所有 <td> 元素
-        const cells = Array.from(row.querySelectorAll('td'));
-
-        // 获取当前单元格的行和列索引
-        const cellRowIndex = rowIndex;
-        const cellColumnIndex = columnIndex;
-
-        // 更新下一行的索引和列的索引
-        rowIndex += row.getAttribute('rowspan') ? parseInt(row.getAttribute('rowspan')) : 1;
-        columnIndex = cellColumnIndex + 1;
-
-        // 获取第二列和第三列的值
-        const game = cells[cellColumnIndex].textContent;
-        const role = cells[cellColumnIndex + 1].textContent;
-
-        // 根据筛选条件判断是否保留该行
-        if ((game === gameSelect.value || gameSelect.value === "No_filter") && (role === roleSelect.value || roleSelect.value === "No_filter")) {
-            row.style.display = 'table-row'; // 显示行
-        } else {
-            row.style.display = 'none'; // 隐藏行
-        }
-    };
-
-    //很好，它不起作用
-}
-
 
 
 
@@ -191,6 +154,9 @@ const officialGameMap = {
     '18': { 'zh': '虹龙洞', 'en': 'UM' },
     '128': { 'zh': '妖精大战争', 'en': 'GFW' }
 }
+const officialGameArray = ["灵异传", "封魔录", "梦时空", "幻想乡", "怪绮谈", "红魔乡", "妖妖梦", "永夜抄", "花映冢",
+    "风神录", "地灵殿", "星莲船", "神灵庙", "辉针城", "绀珠传", "天空璋", "鬼形兽", "虹龙洞", "妖精大战争"]
+
 const doujinGameMap = {
     '光': '光条阁',
     '夏': '夏夜祭',
@@ -222,6 +188,9 @@ const doujinGameMap = {
     '眠': '眠世界',
     '百': '百花宴'
 }
+const doujinGameArray = ["光条阁", "夏夜祭", "幕华祭 红月", "幕华祭 春雪", "潮圣书", "祈华梦", "栖霞园", "花逐夜", "雪莲华",
+    "导命树", "桃源宫", "白尘记", "真珠岛", "邪星章", "鬼葬剑", "魔宝城", "琴鼓歌", "门殊钱", "危险领", "宵海格",
+    "梦终剧", "海惠堂", "臑茶魔", "妖精郷", "远空界", "催狐谭", "实在相", "眠世界", "百花宴"]
 
 
 async function process(pid) {
@@ -233,117 +202,135 @@ async function process(pid) {
     await fetch(`data/${tableData}`)
         .then(response => response.json())
         .then(data => {
+            loaddata = data;
+        }// end of fetch.then
 
-            const rolesSet = new Set();
-            for (const key in data) {
-                const obj = data[key];
-                for (const subKey in obj) {
-                    const arr = obj[subKey];
-                    for (const item of arr) {
-                        rolesSet.add(item.role);
-                    }
-                }
+        );// end of fetch
+    //process
+    const rolesSet = new Set();
+    for (const key in loaddata) {
+        const obj = loaddata[key];
+        for (const subKey in obj) {
+            const arr = obj[subKey];
+            for (const item of arr) {
+                rolesSet.add(item.role);
             }
+        }
+    }
 
-            const roles = Array.from(rolesSet);
-            //console.log(roles);
-            // 获取筛选器
-            const filterSelect = document.getElementById('role');
-            // 动态生成选项
-            for (const key in roles) {
-                const option = document.createElement('option');
-                option.value = roles[key];
-                option.textContent = roles[key];
-                filterSelect.appendChild(option);
-            }
+    const roles = Array.from(rolesSet);
+    const filterSelect = document.getElementById('role');
+    // 动态生成选项
+    for (const key in roles) {
+        const option = document.createElement('option');
+        option.value = roles[key];
+        option.textContent = roles[key];
+        filterSelect.appendChild(option);
+    }
+    table(pid)
+}
+
+let gamevalue = "No_filter";
+let rolevalue = "No_filter";
+
+function table(pid) {
+
+    //process
 
 
-            // get table element
-            const table = document.querySelector('tbody');
-            // sort by id
-            let idList = Object.keys(data).sort(function (a, b) {
-                const aid = a.replace(' ', '').split('-');
-                const bid = b.replace(' ', '').split('-');
-                if (aid[1].localeCompare(bid[1]) === 0) {
-                    return aid[0].localeCompare(bid[0]);
-                } else {
-                    return aid[1].localeCompare(bid[1]);
-                }
-            });
-            // render table data
-            idList.forEach(id => {
-                const userData = data[id];
-                let isIdRow = true;
-                // sort by game
-                let gameList = Object.keys(userData).sort(function (a, b) {
-                    return parseInt(a) - parseInt(b);
-                });
-                gameList.forEach(game => {
-                    const recordData = userData[game];
-                    let isGameRow = true;
-                    recordData.forEach(record => {
-                        const row = document.createElement('tr');
-                        if (isIdRow) {
-                            // add id row, merge row
-                            const idCell = document.createElement('td');
-                            let rowspan = 0;
-                            gameList.forEach(game => {
+    // get table element
+    const table = document.querySelector('tbody');
+    // clear table
+    table.innerHTML = '';
+    // sort by id
+    let idList = Object.keys(loaddata).sort(function (a, b) {
+        const aid = a.replace(' ', '').split('-');
+        const bid = b.replace(' ', '').split('-');
+        if (aid[1].localeCompare(bid[1]) === 0) {
+            return aid[0].localeCompare(bid[0]);
+        } else {
+            return aid[1].localeCompare(bid[1]);
+        }
+    });
+    // render table data
+    idList.forEach(id => {
+        const userData = loaddata[id];
+        let isIdRow = true;
+        // sort by game
+        let gameList = Object.keys(userData).sort(function (a, b) {
+            return parseInt(a) - parseInt(b);
+        });
+        gameList.forEach(game => {
+            if (game === gamevalue || gamevalue === "No_filter") {
+                //console.log(gamevalue)
+                //console.log(game)
+                const recordData = userData[game];
+                let isGameRow = true;
+                recordData.forEach(record => {
+                    const row = document.createElement('tr');
+                    if (isIdRow) {
+                        // add id row, merge row
+                        const idCell = document.createElement('td');
+                        let rowspan = 0;
+                        gameList.forEach(game => {
+                            if (game === gamevalue || gamevalue === "No_filter") {
                                 rowspan += userData[game].length;
-                            });
-                            idCell.rowSpan = rowspan;
-                            idCell.textContent = id;
-                            row.appendChild(idCell);
-                            isIdRow = false;
-                        }
-                        for (let key in record) {
-                            if (isGameRow) {
-                                // add game row, merge row
-                                const gameCell = document.createElement('td');
-                                gameCell.rowSpan = recordData.length;
-                                if (pid === '02-doujin') {
-                                    gameCell.textContent = doujinGameMap[game] || game;
-
-                                } else {
-                                    gameCell.textContent = officialGameMap[game][lang.split('-')[0]];
-                                }
-                                row.appendChild(gameCell);
-                                isGameRow = false;
                             }
-                            const cell = document.createElement('td');
-                            if (boolKeyList.indexOf(key) !== -1) {
-                                if (record[key] === '' || record[key] === null) {
-                                    // empty value, TODO: data need to be fixed
-                                    cell.textContent = '-';
-                                }
-                                else if (typeof (record[key]) === 'boolean') {
-                                    // boolean value
-                                    cell.textContent = record[key] ? '√' : '×';
-                                }
-                                else {
-                                    // if not boolean, it should be url
-                                    // all string value will be treated as url
-                                    const link = document.createElement('a');
-                                    ltmp = record[key].split(' ');
-                                    link.href = record[key].split(' ')[0];
-                                    link.textContent = ltmp[1] ? ltmp[1] : '查看';
-                                    link.target = '_blank';
-                                    link.className = 'btn btn-url'
-                                    cell.appendChild(link);
-                                }
+                        });
+                        idCell.rowSpan = rowspan;
+                        idCell.textContent = id;
+                        row.appendChild(idCell);
+                        isIdRow = false;
+                    }
+                    for (let key in record) {
+                        if (isGameRow) {
+                            // add game row, merge row
+                            const gameCell = document.createElement('td');
+                            gameCell.rowSpan = recordData.length;
+                            if (pid === '02-doujin') {
+                                gameCell.textContent = doujinGameMap[game] || game;
+
+                            } else {
+                                gameCell.textContent = officialGameMap[game][lang.split('-')[0]];
+                            }
+                            row.appendChild(gameCell);
+                            isGameRow = false;
+                        }
+                        const cell = document.createElement('td');
+                        if (boolKeyList.indexOf(key) !== -1) {
+                            if (record[key] === '' || record[key] === null) {
+                                // empty value, TODO: data need to be fixed
+                                cell.textContent = '-';
+                            }
+                            else if (typeof (record[key]) === 'boolean') {
+                                // boolean value
+                                cell.textContent = record[key] ? '√' : '×';
                             }
                             else {
-                                // normal string value
-                                cell.textContent = record[key];
+                                // if not boolean, it should be url
+                                // all string value will be treated as url
+                                const link = document.createElement('a');
+                                ltmp = record[key].split(' ');
+                                link.href = record[key].split(' ')[0];
+                                link.textContent = ltmp[1] ? ltmp[1] : '查看';
+                                link.target = '_blank';
+                                link.className = 'btn btn-url'
+                                cell.appendChild(link);
                             }
-                            row.appendChild(cell);
                         }
-                        table.appendChild(row);
-                    });// end of recordData.forEach
-                }
+                        else {
+                            // normal string value
+                            cell.textContent = record[key];
+                        }
+                        row.appendChild(cell);
+                    }
+                    table.appendChild(row);
+                });// end of recordData.forEach
+            }
+        }
 
-                );// end of gameList.forEach
-            });// end of idList.forEach
-        }// end of fetch.then
-        );// end of fetch
-
+        );// end of gameList.forEach
+    });// end of idList.forEach
 }
+
+let loaddata = {};
